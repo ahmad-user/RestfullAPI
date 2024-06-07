@@ -1,0 +1,34 @@
+// POST:
+Customer;
+    {
+        "id": 3,
+        "name": "Joko",
+        "phoneNumber": 22,
+        "address": "Jakarta"
+    },
+// POST:
+Product;
+  {
+        "name": "khonguan",
+        "price": 6000,
+        "unit": "22"
+    },
+
+// POST:
+Transactions;
+"billDate": "2024-04-30",
+	"entryDate": "2024-04-30",
+	"finishDate": "2024-05-01",
+	"employeeId": "2",
+	"customerId": "1",
+	"billDetails": [
+		{
+			"productId": "1",
+			"qty": 5
+		},
+		{
+			"productId": "2",
+			"qty": 6
+		}
+	]
+}
