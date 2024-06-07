@@ -1,0 +1,29 @@
+GET->Pagination saja
+localhost:2000/api/v1/expenses/?page=1&size=10
+GET->ID
+8fe3f3f5-9655-4e78-95e3-eaf9faff2afd
+GET->type
+localhost:2000/api/v1/expenses/type/CREDIT
+POST:
+localhost:2000/api/v1/expenses
+{
+    "date": "2023-01-02T00:00:00Z",
+    "amount": 250000,
+    "transaction_type": "CREDIT",
+    "balance": 1000,
+    "description": "Tambahan jajan",
+    "user_id": "6d0bd065-c3c4-43d8-8730-c11fe9348554"
+}
+
+PUT->id
+localhost:2000/api/v1/expenses/eaabdc97-2134-457f-9ace-50b550a6fe43
+{
+    "id": "eaabdc97-2134-457f-9ace-50b550a6fe43",
+    "amount": 550000,
+    "transaction_type": "DEBIT",
+    "balance": 2000,
+    "description": "Tambahan jajan donk",
+    "user_id":"6d0bd065-c3c4-43d8-8730-c11fe9348554"
+}
+
+
